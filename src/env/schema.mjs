@@ -18,6 +18,10 @@ export const serverSchema = z.object({
   ),
   GOOGLE_CLIENT_ID: z.string(),
   GOOGLE_CLIENT_SECRET: z.string(),
+  YOUTUBE_API_KEY: z.string(),
+  GOOGLE_OAUTH_CLIENT_ID: z.string(),
+  GOOGLE_OAUTH_CLIENT_SECRET: z.string(),
+  OAUTH_REDIRECT_URI: z.string().url(),
 });
 
 /**
